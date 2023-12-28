@@ -1,15 +1,16 @@
 import BannerImg from '../../assets/images/Removal-349.png';
-const Banner = () => {
-  const downloadPdf = () => {
-    const pdfUrl = '/resume.pdf';
+const Banner = e => {
+  e.preventDefault;
+  // const downloadPdf = () => {
+  //   const pdfUrl = '/resume.pdf';
 
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.download = 'DemoResume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  //   const link = document.createElement('a');
+  //   link.href = pdfUrl;
+  //   link.download = 'DemoResume.pdf';
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
   return (
     <div className="hero w-full mx-auto min-h-[80%] bg-base-300">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -22,7 +23,12 @@ const Banner = () => {
             Leveraging my expertise in MongoDB, Express.js, React, and Node.js,
             I bring innovative solutions to the table.
           </p>
-          <a onClick={downloadPdf} download className="btn btn-primary">
+
+          <a
+            href="/Mojammel_Molla's_resume.pdf"
+            download
+            className="btn btn-primary"
+          >
             Download Resume
           </a>
         </div>
