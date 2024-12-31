@@ -10,7 +10,7 @@ import GradeMiner2 from '../../assets/projects/grade-miners2.png';
 import GradeMiner3 from '../../assets/projects/grade-miners3.png';
 const Featured = () => {
   return (
-    <div className="invisible lg:visible  lg:h-[600px]">
+    <div className="invisible lg:visible  lg:h-[600px] my-32">
       <SectionTitle title="My recent works"></SectionTitle>
       <div>
         <Marquee className=" space-x-3">

@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full ">
+    <div className="w-full  ">
       <div className=" text-center ">
         <h1 className="lg:text-4xl font-semibold mt-5">Lets Talk</h1>
         <p className="lg:text-xl font-medium mt-2">

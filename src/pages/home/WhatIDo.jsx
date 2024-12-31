@@ -3,11 +3,12 @@ import ResponsiveIcon from '../../assets/images/responsive-design_2535547.png';
 import ErrorFixIcon from '../../assets/images/Errorfixlogo.png';
 import FeatureIcon from '../../assets/images/feature.png';
 import SectionTitle from '../../shared/SectionTitle';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const WhatIDo = () => {
   return (
-    <div className="h-[600px] ">
+    <div data-aos="fade-in" className="h-[600px] ">
       <SectionTitle title="What Do I Help"></SectionTitle>
-
       <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-4 w-full mx-auto">
         <div className="card w-96 h-[450px] pb-5 bg-base-100 shadow-xl">
           <div className="card-body">
@@ -58,6 +59,7 @@ const WhatIDo = () => {
           </figure>
         </div>
       </div>
+      <script>AOS.init();</script>
     </div>
   );
 };

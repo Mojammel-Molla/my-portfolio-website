@@ -18,16 +18,18 @@ const Banner = e => {
         <div className="space-y-3 lg:w-1/2">
           <h1 className="text-5xl font-bold">Hi! I'm Molla</h1>
           <p className="py-6 text-lg font-normal">
-            I am Mojammel Molla a highly skilled MERN stack developer with a
-            passion for crafting robust and scalable web applications.
-            Leveraging my expertise in MongoDB, Express.js, React, and Node.js,
-            I bring innovative solutions to the table.
+            I am Mojammel Molla, a full-stack developer skilled in building
+            scalable web applications. Proficient in front-end technologies like
+            Next.js, React, Redux, and Tailwind, and back-end tools including
+            Node.js, Express.js, JavaScript, TypeScript, Mongoose, and Prisma.
+            Experienced with MongoDB and PostgreSQL for efficient database
+            management.
           </p>
 
           <a
-            href="/Mojammel_Molla's_resume.pdf"
+            href="https://drive.google.com/uc?id=1smIC9NujnevCWQ0q16NB2vGhanL-mtKs&export=download"
             download
-            className="btn btn-primary"
+            className="btn btn-primary text-white"
           >
             Download Resume
           </a>

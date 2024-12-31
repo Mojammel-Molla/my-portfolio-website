@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Next.js",
+    "type": "Web Framework",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735127711/jvvxgsfvg67ts4yv97yy.png"
+  },
+  {
+    "id": 2,
+    "title": "React",
+    "type": "Frontend Library",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735127886/qprlvwzmulbslil4hgyu.png"
+  },
+  {
+    "id": 3,
+    "title": "TypeScript",
+    "type": "Type Safety",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735127947/ppsh78aqkwfjid9n1flc.png"
+  },
+  {
+    "id": 4,
+    "title": "JavaScript",
+    "type": "Programming Language",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735127978/uv2mptnm7jjjdejfw6k7.png"
+  },
+  {
+    "id": 5,
+    "title": "Redux",
+    "type": "State Management",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128045/qdwwnjdhqqdawxyjtqsz.png"
+  },
+  {
+    "id": 6,
+    "title": "TailwindCSS",
+    "type": "CSS Framework",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128082/meousjr4vq9cls8v2wn0.png"
+  },
+  {
+    "id": 7,
+    "title": "CSS",
+    "type": "Styling",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128107/xexhpnchh90wk9hivwpt.png"
+  },
+  {
+    "id": 8,
+    "title": "HTML",
+    "type": "Markup Language",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128119/axxonx2zhxyqw0kzzmva.png"
+  },
+  {
+    "id": 9,
+    "title": "React Query",
+    "type": "Query Management",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128204/did5lsxztceyqlbcmwik.png"
+  },
+  {
+    "id": 10,
+    "title": "SCSS",
+    "type": "CSS Preprocessor",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128263/bwptvg4vk4n0scy07jmu.png"
+  },
+  {
+    "id": 11,
+    "title": "Node.js",
+    "type": "JavaScript Runtime",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128292/yg68crelbd5v6ud59zpy.png"
+  },
+  {
+    "id": 12,
+    "title": "Express",
+    "type": "Node Framework",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128313/cnr7tyfnbxcd2eckgy6r.png"
+  },
+  {
+    "id": 13,
+    "title": "MongoDB",
+    "type": "NoSQL Database",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128342/xhmbfkb8k8icyonokzrb.png"
+  },
+  {
+    "id": 14,
+    "title": "PostgreSQL",
+    "type": "Relational Database",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128381/qkfrpstvpdpd9r4iavqe.png"
+  },
+  {
+    "id": 15,
+    "title": "Prisma",
+    "type": "ORM for Databases",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128430/mtgfjsozalzonnyvcdsk.png"
+  },
+  {
+    "id": 16,
+    "title": "Mongoose",
+    "type": "MongoDB ODM",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128512/sa7squh6zqwgw7yyzeuz.png"
+  },
+  {
+    "id": 17,
+    "title": "jsonwebtoken",
+    "type": "JWT Authentication",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128546/wzmc2krw4c64voiwrkg9.png"
+  },
+  {
+    "id": 18,
+    "title": "React Hook Form",
+    "type": "Form Library",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128666/xjuwh1ystxhfzmgvxmmj.png"
+  },
+  {
+    "id": 19,
+    "title": "Figma",
+    "type": "Design",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128685/qt11zfrnyctoogecigtw.png"
+  },
+  {
+    "id": 20,
+    "title": "PhotoShop",
+    "type": "Image Editing",
+    "image": "https://res.cloudinary.com/dkeihgcda/image/upload/v1735128735/ennpcp8cus1k5etd2s5n.png"
+  }
+]

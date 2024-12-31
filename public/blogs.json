@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Mastering React: Tips and Tricks",
+    "author": "Mojammel Molla",
+    "date": "December 15, 2024",
+    "image": "https://example.com/react-tips.jpg",
+    "excerpt": "React is a powerful library for building user interfaces. Learn the tips and tricks to master it and enhance your development skills.",
+    "description": "In this blog, we explore advanced techniques to optimize your React applications. From using hooks effectively to performance optimization strategies, this post will help you elevate your React skills."
+  },
+  {
+    "id": 2,
+    "title": "Tailwind CSS: Revolutionizing Web Design",
+    "author": "Mojammel Molla",
+    "date": "November 28, 2024",
+    "image": "https://example.com/tailwind-css.jpg",
+    "excerpt": "Discover how Tailwind CSS simplifies web design with its utility-first approach, making it faster and more efficient to create responsive layouts.",
+    "description": "This blog delves into the utility-first approach of Tailwind CSS, explaining how it simplifies the process of creating responsive and visually appealing web designs. Learn how to integrate it into your projects."
+  },
+  {
+    "id": 3,
+    "title": "Building RESTful APIs with Node.js and Express",
+    "author": "Mojammel Molla",
+    "date": "October 10, 2024",
+    "image": "https://example.com/node-express.jpg",
+    "excerpt": "Learn how to build scalable and efficient RESTful APIs using Node.js and Express, with practical examples and best practices.",
+    "description": "This guide walks you through creating RESTful APIs using Node.js and Express. It covers everything from setting up your environment to implementing CRUD operations with real-world examples."
+  },
+  {
+    "id": 4,
+    "title": "A Beginner's Guide to TypeScript",
+    "author": "Mojammel Molla",
+    "date": "September 5, 2024",
+    "image": "https://example.com/typescript-guide.jpg",
+    "excerpt": "TypeScript brings type safety to JavaScript. Start your journey with this beginner-friendly guide to learn its basics and benefits.",
+    "description": "This beginner-friendly blog introduces TypeScript, explaining its key features, advantages over JavaScript, and how to get started with type-safe programming for modern web development."
+  },
+  {
+    "id": 5,
+    "title": "Exploring MongoDB for Modern Applications",
+    "author": "Mojammel Molla",
+    "date": "August 20, 2024",
+    "image": "https://example.com/mongodb-modern.jpg",
+    "excerpt": "MongoDB is a popular NoSQL database. Explore its features and how it powers modern web applications.",
+    "description": "Dive deep into MongoDB's features, including its flexible schema design, powerful query language, and scalability. Learn how it fits into the modern development stack."
+  }
+]

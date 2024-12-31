@@ -1,34 +1,39 @@
+/* eslint-disable react/prop-types */
 import SectionTitle from '../../shared/SectionTitle';
-import ReactIcon from '../../assets/images/React-icon.png';
-import gitIcon from '../../assets/images/Git-logo.svg.png';
-import firebaseIcon from '../../assets/images/Firebase_Logo.svg.png';
-import htmlIcon from '../../assets/images/HTML5_logo.png';
-import cssIcon from '../../assets/images/123_css3.jpg';
-import bootstrapIcon from '../../assets/images/bootstrap-logo.png';
-import mongoDbIcon from '../../assets/images/MongoDB-Logo.jpg';
-import jsIcon from '../../assets/images/jslogo.png';
-import tailwindIcon from '../../assets/images/tailwind.png';
-import nodejsIcon from '../../assets/images/nodejs.png';
-import expressJsIcon from '../../assets/images/expressjs.png';
-const Skills = () => {
+import Skills from '../../../public/skills.json';
+const MySkills = () => {
   return (
-    <div className="h-[600px]">
+    <div className=" md:min-h-[90vh] overflow-y-visible bg-black py-5">
       <SectionTitle title="My Skills"></SectionTitle>
-      <div className="flex flex-wrap  lg:max-w-[800px] mx-auto gap-5">
-        <img className="w-32 h-32" src={ReactIcon} alt="" />
-        <img className="w-32 h-32" src={jsIcon} alt="" />
-        <img className="w-32 h-32" src={tailwindIcon} alt="" />
-        <img className="w-36 h-32" src={nodejsIcon} alt="" />
-        <img className="lg:w-40 h-32" src={expressJsIcon} alt="" />
-        <img className="w-40 h-32" src={gitIcon} alt="" />
-        <img className="w-40 h-32" src={mongoDbIcon} alt="" />
-        <img className="w-36 h-32" src={firebaseIcon} alt="" />
-        <img className="w-32 h-32" src={bootstrapIcon} alt="" />
-        <img className="w-32 h-32" src={htmlIcon} alt="" />
-        <img className="w-32 h-32" src={cssIcon} alt="" />
+      <div>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 justify-between md:gap-10 mx-auto max-w-7xl">
+          {Skills.map(skill => (
+            <SkillCard key={skill.id} skill={skill} />
+          ))}
+        </div>
       </div>
     </div>
   );
 };
 
-export default Skills;
+const SkillCard = ({ skill }) => {
+  return (
+    <div className="bg-[#2d2e32] flex justify-around w-72 h-[100px] pb-5 border-x-white shadow-xl mx-auto ">
+      <div className="w-1/3 m-auto px-3">
+        <figure>
+          <img
+            className="h-16 w-16 rounded-md"
+            src={skill.image}
+            alt={skill.title}
+          ></img>
+        </figure>
+      </div>
+      <div className="w-2/3 text-center h-20 my-auto">
+        <h2 className=" text-xl font-semibold pt-5">{skill.title}</h2>
+        <p className="text-">{skill.type}</p>
+      </div>
+    </div>
+  );
+};
+
+export default MySkills;

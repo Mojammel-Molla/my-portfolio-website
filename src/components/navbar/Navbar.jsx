@@ -1,5 +1,5 @@
-import { FaLinkedin } from 'react-icons/fa6';
-import { Link, NavLink } from 'react-router-dom';
+import { FaGithub, FaLinkedin } from 'react-icons/fa6';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const navLinks = (
@@ -34,6 +34,14 @@ const Navbar = () => {
         className={({ isActive }) =>
           isActive ? 'text-blue-700 underline' : ''
         }
+        to="/my-skills"
+      >
+        <li className="lg:mr-10 font-medium">Blogs</li>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? 'text-blue-700 underline' : ''
+        }
         to="/about-me"
       >
         <li className="lg:mr-10 font-medium">About Me</li>
@@ -49,7 +57,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 my-3 border-b-2">
+    <div className="navbar bg-black  border-b-2">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -70,23 +78,22 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm bg-black dropdown-content mt-3 z-[1] p-2 shadow text-white rounded-box w-52"
           >
             {navLinks}
           </ul>
         </div>
-        <a className=" font-semibold text-xl">Developer</a>
+        <a className=" md:ml-4 font-semibold text-lg ">Mojammel Molla</a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
-      </div>
-      <div className="navbar-end">
+
         <a href="https://www.linkedin.com/in/mojammel-molla">
-          <FaLinkedin className="text-4xl mr-3"></FaLinkedin>
+          <FaLinkedin className="text-4xl mr-3" />
         </a>
-        <Link className="btn" to="/contact">
-          Hire Me
-        </Link>
+        <a href="https://github.com/Mojammel-Molla">
+          <FaGithub className="text-4xl mr-3" />
+        </a>
       </div>
     </div>
   );
