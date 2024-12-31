@@ -1,23 +1,13 @@
-import { FaArrowRight } from 'react-icons/fa6';
-import AllBlogs from '../../../public/blogs.json';
-import { Link } from 'react-router-dom';
-const Blogs = () => {
+import Blogs from '../../../public/blogs.json';
+const AllBlogs = () => {
   return (
-    <div className=" bg-black h-[60vh]">
-      <h2 className="text-3xl font-semibold text-start ml-5 p-4">
-        Latest Blogs
-      </h2>
+    <div className=" bg-black min-h-screen-">
+      <h2 className="text-3xl font-semibold text-start">All Blogs</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-7xl ">
-        {AllBlogs.slice(0, 3).map(blog => (
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-7xl">
+        {Blogs.map(blog => (
           <BlogCard key={blog.id} blog={blog} />
         ))}
-      </div>
-      <div className="flex justify-center items-center gap-2 mt-4">
-        <Link className="flex gap-2" to="/blogs">
-          <button>See All</button>
-          <FaArrowRight />
-        </Link>
       </div>
     </div>
   );
@@ -45,5 +35,4 @@ const BlogCard = ({ blog }) => {
     </div>
   );
 };
-
-export default Blogs;
+export default AllBlogs;

@@ -26,15 +26,7 @@ const Navbar = () => {
         className={({ isActive }) =>
           isActive ? 'text-blue-700 underline' : ''
         }
-        to="/my-skills"
-      >
-        <li className="lg:mr-10 font-medium">Skills</li>
-      </NavLink>
-      <NavLink
-        className={({ isActive }) =>
-          isActive ? 'text-blue-700 underline' : ''
-        }
-        to="/my-skills"
+        to="/blogs"
       >
         <li className="lg:mr-10 font-medium">Blogs</li>
       </NavLink>
