@@ -12,9 +12,9 @@ const Banner = e => {
   //   document.body.removeChild(link);
   // };
   return (
-    <div className="hero w-full mx-auto min-h-[80%] bg-base-300">
+    <div className="hero  mx-auto min-h-[80%] bg-black w-[100vw]">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={BannerImg} className="w-[800px] rounded-lg " />
+        <img src={BannerImg} className="max-w-[800px] rounded-lg " />
         <div className="space-y-3 lg:w-1/2">
           <h1 className="text-5xl font-bold">Hi! I'm Molla</h1>
           <p className="py-6 text-lg font-normal">

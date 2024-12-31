@@ -4,11 +4,9 @@ import { Link } from 'react-router-dom';
 const Blogs = () => {
   return (
     <div className=" bg-black h-[60vh]">
-      <h2 className="text-3xl font-semibold text-start ml-5 p-4">
-        Latest Blogs
-      </h2>
+      <h2 className="text-3xl font-semibold text-center py-5">Latest Blogs</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-7xl ">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4 mx-auto max-w-7xl ">
         {AllBlogs.slice(0, 3).map(blog => (
           <BlogCard key={blog.id} blog={blog} />
         ))}

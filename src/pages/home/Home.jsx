@@ -1,3 +1,4 @@
+import AboutMe from '../about-me/AboutMe';
 import AllProjects from '../projects/AllProjects';
 import Banner from './Banner';
 import Blogs from './Blogs';
@@ -9,12 +10,12 @@ import WhatIDo from './WhatIDo';
 const Home = () => {
   return (
     <div>
-      {/* <Banner></Banner> */}
+      <Banner></Banner>
       {/* <WhatIDo></WhatIDo> */}
       <MySkills></MySkills>
-      {/* <Featured></Featured> */}
-      <AllProjects></AllProjects>
+      <Featured></Featured>
       <Blogs></Blogs>
+      <AboutMe></AboutMe>
       <Contact></Contact>
     </div>
   );

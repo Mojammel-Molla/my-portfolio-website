@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "A fully functional e-commerce platform with features like product browsing, cart management, and secure checkout.",
+    "image": "https://i.ibb.co.com/P6ZS21w/e-commerce.png",
+    "techstacks": [
+      "React",
+      "Redux",
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "JWT",
+      "Prisma",
+      "Amar Pay",
+      "Tailwind CSS"
+    ],
+    "live": "https://hekto-1a747.web.app",
+    "client": "https://github.com/Mojammel-Molla/click-n-cart-client",
+    "server": "https://github.com/Mojammel-Molla/click-n-cart-server"
+  },
+  {
+    "id": 2,
+    "title": "Travel Blog Platform",
+    "description": "A responsive blogging platform where users can create, edit, and share blog  about their travel with a rich text editor and social media integration.",
+    "image": "https://i.ibb.co.com/V37QMRx/travel-junction.png",
+    "techstacks": [
+      "Next.js",
+      "TypeScript",
+      "Shadcn UI",
+      "Redux",
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "JWT",
+      "Mongoose",
+      "MongoDB",
+      "Amar Pay",
+      "Tailwind CSS"
+    ],
+    "live": "https://travel-junction-client.vercel.app",
+    "client": "https://github.com/Mojammel-Molla/travel-junction",
+    "server": "https://github.com/Mojammel-Molla/travel-junction-server"
+  },
+  {
+    "id": 3,
+    "title": "Real State Buy-Sell",
+    "description": "An online platform for buying and selling real estate apartments, offering advanced search filters, virtual tours, and a seamless user experience to help customers find their dream home effortlessly.",
+    "image": "https://i.ibb.co.com/NWYLNgB/real-state.png",
+    "techstacks": [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express",
+      "JWT",
+      "MongoDB",
+      "Stripe"
+    ],
+    "live": "https://facility-minder-ba828.web.app",
+    "client": "https://github.com/Mojammel-Molla/facility-minder-client",
+    "server": "https://github.com/Mojammel-Molla/facility-minder-server"
+  },
+  {
+    "id": 4,
+    "title": "Car Rental Platform",
+    "description": "A sleek and user-friendly platform for buying and selling cars, featuring real-time listings, advanced search filters, and secure transaction options to ensure a seamless experience for buyers and sellers alike.",
+    "image": "https://i.ibb.co.com/dptQ4Dj/carhut.png",
+    "techstacks": [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express",
+      "JWT",
+      "MongoDB",
+      "Stripe"
+    ],
+    "live": "https://car-hut-d5331.web.app",
+    "client": "https://github.com/Mojammel-Molla/car-hut-client",
+    "server": "https://github.com/Mojammel-Molla/car-hut-server"
+  }
+]
