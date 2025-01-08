@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa6';
+import { FaDailymotion, FaGithub, FaLinkedin } from 'react-icons/fa6';
 import { TbMailBolt } from 'react-icons/tb';
 const Footer = () => {
   return (
@@ -12,6 +12,9 @@ const Footer = () => {
         </a>
         <a href="https://www.linkedin.com/in/mojammel-molla">
           <FaLinkedin className="text-4xl" />
+        </a>
+        <a href="https://app.daily.dev/mojammelmolla">
+          <FaDailymotion className="text-4xl" />
         </a>
       </div>
       <aside>
